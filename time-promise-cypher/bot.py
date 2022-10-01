@@ -7,7 +7,26 @@ intents.message_content = True
 bot = commands.Bot(intents=intents, command_prefix='$')
 
 @bot.command()
-async def cypher(ctx):
+async def book_init(ctx):
+    #TODO
+@bot.command()
+async def get_password(ctx):
+    #TODO
+
+@bot.command()
+async def menu(ctx):
+    #TODO
+
+@bot.command()
+async def retrieve_contents(ctx):
+    #TODO
+
+@bot.command()
+async def dis_print(ctx):
+    #TODO
+
+@bot.command()
+async def percent_example(ctx):
 
     await ctx.send('Enter the original price: ')
     message_response = await bot.wait_for('message', check=lambda m: m.author == ctx.author)
