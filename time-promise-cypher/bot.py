@@ -25,4 +25,4 @@ async def cypher(ctx):
     await ctx.send(f"You saved {discount}. Your total is, {finalCost}")
 
 
-bot.run('MTAyNDcyODYyNDk3ODQ2MDc4Mg.Gaq8P5.xizB0v-fOqZxhtcclz4MfKpBWu921KdMyErQ2Q')
+bot.run('{TOKEN}')
